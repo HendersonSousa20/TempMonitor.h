@@ -98,6 +98,7 @@ The **TempMonitor** library is designed to simplify the process of monitoring te
   4. Simulates sending the data to an IoT server. / Simula o envio dos dados para um servidor IoT.
   5. Displays the contents of the simulated database. / Exibe o conteúdo do banco de dados simulado.
   6. Waits for a specified delay time before repeating the process. / Aguarda um tempo de atraso especificado antes de repetir o processo.
+     
 - **lerSensor()**: Reads the analog value from the temperature sensor and returns it. If the value is invalid, it returns -1. / Lê o valor analógico do sensor de temperatura e o retorna. Se o valor for inválido, retorna -1.
 - **calcularTemperaturaC(float valorSensor)**: Converts the sensor value to voltage and calculates the temperature in Celsius. / Converte o valor do sensor para tensão e calcula a temperatura em Celsius.
 - **calcularTemperaturaF(float temperaturaC)**: Converts the temperature from Celsius to Fahrenheit
